@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--navigation -->
+    <meta charset="UTF-8" />
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700|Khula">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <span class="span-background title">
+            <h1> Brynn Kiloran </h1>
+        </span>
+        <nav>
+            <ul class="nav-effects">
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <!-- add resume -->
+                    <a href="./"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-subtilte">
+            <span class="span-background opacity">Welcome!</span>
+        </div>
+    </section>
+
+    <!-- abotu me -->
+    <article>
+        <div id="about-me" class="about-me-wrapper">
+            <div class="aobut-me-grid-cntainer">
+                <div class="about-me-item about-me-title">
+                    <p> About Me</p>
+                </div>
+                <div class="about-me-item p1">
+                    <p> I am working on building my coding presence online</p>
+                </div>
+                <div class="about-me-item p2">
+                    <p> Currently working on a few more projects to showcase! Stay tuned!</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- work/projects -->
+    <article>
+        <div id="work" class="work-wrapper">
+            <div class="work-grid-container">
+                <div class="work-item work-title">
+                    <p> Work</p>
+                </div>
+                <div onclick="projectClicked('challenge-refactor')" alt="Horiseon landing Page"
+                    title="Horiseon landing Page" target="_blank" style="cursor:pointer;"
+                    class="work-item-project challenge-refactor">
+                    <span class="span-background">
+                        <h3>Horiseion Services</h3>
+                        <span class="lower-text">HTML/CSS</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked ('run-buddy')" alt="Webside page for a fictional Run Buddy company"
+                    title="Run Buddy landing page" style="cursor:pointer;" class="work-item-project run-buddy">
+                    <h3>Run Buddy</h3>
+                    <span class="lower-text">HTML/CSS</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked('javascript-password-generator')"
+                    alt="Image Displaying the Javascript Password Generator Page" title="Password Generator landing page"
+                    style="cursor: pointer;" class="work-item-project password-generator">
+                    <span class="span-background">
+                        <h3>Password Generator</h3>
+                        <span class="lower-text">CSS/Javascript</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked('api-code-quiz')"
+                    alt="Image Displaying the Api Code Quiz landing Page" title="Api Code Quiz landing page"
+                    style="cursor: pointer;" class="work-item-project api-code-quiz">
+                    <span class="span-background">
+                        <h3>Web API Code Quiz</h3>
+                        <span class="lower-text">Javascript/CSS/LocalStorage</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked('work-day-scheduler')"
+                    alt="Image Displaying the Web work day scheduler Page" title="Work-day scheduler-page"
+                    style="cursor: pointer;" class="work-item-project work-day-scheduler">
+                    <span class="span-background">
+                        <h3>Work Day Scheduler</h3>
+                        <span class="lower-text">Dynamic Javascript/Bootstrap</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked('music-guru')"
+                    alt="Image Displaying the project home  Page" title="Project 1 landing page"
+                    style="cursor: pointer;" class="work-item-project project01">
+                    <span class="span-background">
+                        <h3>Project01</h3>
+                        <span class="lower-text">HTML/CSS/Javascript</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked('unleashed')"
+                alt="Image Displaying the project home  Page" title="Project 2 landing page"
+                style="cursor: pointer;" class="work-item-project project01">
+                <span class="span-background">
+                    <h3>Unleashed</h3>
+                    <span class="lower-text">HTML/CSS/Javascript</span>
+                </span>
+            </div>
+
+
+
+
+                <div class="work-item-project ghost-item">
+                    <span class="span-background">
+                        <h3>Coming soon!</h3>
+                        <span class="lower-text">TBD</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- footer-->
+    <footer>
+        <div id="contact" class="footer-wrapper">
+            <div class="footer-container">
+                <div class="footer-grid-item contact">
+                    Contact 
+                </div>
+                <div class="footer-grid-item email">
+                    <a href="mailto:kiloranb@gmail.com">kiloranb@gmail.com</a>
+                </div>
+                <div class="footer-grid-item git-hub">
+                    <a href="https://github.com/brynnke/" target="_blank">GITHUB</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
